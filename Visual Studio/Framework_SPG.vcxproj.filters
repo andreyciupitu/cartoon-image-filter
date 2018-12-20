@@ -64,6 +64,12 @@
     <Filter Include="Laboratoare\Laborator3\Shaders">
       <UniqueIdentifier>{66e624e2-f712-4e5b-95bd-5fcfd085debf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CartoonFilter">
+      <UniqueIdentifier>{dec008ea-96ae-4d3e-b4de-4ddd51886b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CartoonFilter\Shaders">
+      <UniqueIdentifier>{c0a93195-188d-4ceb-8d38-013f282bd276}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -135,6 +141,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\Laborator7\Laborator7_WinAPI.cpp">
       <Filter>Laboratoare\Laborator7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CartoonFilter\CartoonFilterDemo.cpp">
+      <Filter>CartoonFilter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -225,6 +234,9 @@
     <ClInclude Include="..\Source\Core\GPU\ParticleEffect.h">
       <Filter>Core\GPU</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\CartoonFilter\CartoonFilterDemo.h">
+      <Filter>CartoonFilter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator7\Shaders\FragmentShader.glsl">
@@ -295,6 +307,18 @@
     </None>
     <None Include="..\Source\Laboratoare\Laborator6\Shaders\LightPass.FS.glsl">
       <Filter>Laboratoare\Laborator6\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Demo\ColorQuantization.FS.glsl">
+      <Filter>CartoonFilter\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Demo\Dilate.FS.glsl">
+      <Filter>CartoonFilter\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Demo\Pass.VS.glsl">
+      <Filter>CartoonFilter\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Demo\Sobel.FS.glsl">
+      <Filter>CartoonFilter\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
