@@ -145,6 +145,12 @@
     <ClCompile Include="..\Source\CartoonFilter\CartoonFilterDemo.cpp">
       <Filter>CartoonFilter</Filter>
     </ClCompile>
+    <ClCompile Include="..\Source\CartoonFilter\Region.cpp">
+      <Filter>CartoonFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CartoonFilter\WinAPIFileBrowser.cpp">
+      <Filter>CartoonFilter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\Core\World.h">
@@ -237,6 +243,12 @@
     <ClInclude Include="..\Source\CartoonFilter\CartoonFilterDemo.h">
       <Filter>CartoonFilter</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\CartoonFilter\Region.h">
+      <Filter>CartoonFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CartoonFilter\WinAPIFileBrowser.h">
+      <Filter>CartoonFilter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator7\Shaders\FragmentShader.glsl">
@@ -308,9 +320,6 @@
     <None Include="..\Source\Laboratoare\Laborator6\Shaders\LightPass.FS.glsl">
       <Filter>Laboratoare\Laborator6\Shaders</Filter>
     </None>
-    <None Include="..\Resources\Shaders\Demo\ColorQuantization.FS.glsl">
-      <Filter>CartoonFilter\Shaders</Filter>
-    </None>
     <None Include="..\Resources\Shaders\Demo\Dilate.FS.glsl">
       <Filter>CartoonFilter\Shaders</Filter>
     </None>
@@ -318,6 +327,12 @@
       <Filter>CartoonFilter\Shaders</Filter>
     </None>
     <None Include="..\Resources\Shaders\Demo\Sobel.FS.glsl">
+      <Filter>CartoonFilter\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Demo\Simple.FS.glsl">
+      <Filter>CartoonFilter\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Demo\Cartoon.FS.glsl">
       <Filter>CartoonFilter\Shaders</Filter>
     </None>
   </ItemGroup>

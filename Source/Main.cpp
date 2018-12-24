@@ -5,7 +5,6 @@ using namespace std;
 
 #include <Core/Engine.h>
 
-#include <Laboratoare/LabList.h>
 #include <CartoonFilter\CartoonFilterDemo.h>
 
 int main(int argc, char **argv)
